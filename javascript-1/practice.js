@@ -107,7 +107,7 @@ const me = {
 // Code here
 function bigOrSmall (arr) {
 	let answers = []
-	for (i = 0; i < arr.length; i++){
+	for (let i = 0; i < arr.length; i++){
 		if (arr[i] > 100){
 			answers.push("big")
 		} else {
@@ -124,7 +124,7 @@ function bigOrSmall (arr) {
 //Code Here
 function arrayReverser (arr) {
 	let reversed = []
-	for (i = arr.length - 1; i >= 0; i--) {
+	for (let i = arr.length - 1; i >= 0; i--) {
 		reversed.push(arr[i])
 	}
 	return reversed
@@ -196,8 +196,8 @@ const enemies = people.filter(el => el.friend === false)
 
 // Code Here
 
-// const awesomeLevels = people.map(el => el.awesomeLevel)
-// const totallyAwesome = awesomeLevels.reduce((acc, curr) => acc + curr)
+// const allAwesomeLevels = people.map(el => el.awesomeLevel)
+// const totallyAwesome = allAwesomeLevels.reduce((acc, curr) => acc + curr)
 
 const totallyAwesome = people.reduce((acc, curr) => {
 	return acc + (curr.awesomeLevel)
