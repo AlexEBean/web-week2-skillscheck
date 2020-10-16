@@ -2,3 +2,95 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.header {
+    width: 100%;
+    height: 5%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.company {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 28px;
+}
+
+.right {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+
+.MYK {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: greenyellow;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.main {
+    height: 40%;
+}
+
+.top{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue {
+    height: 80%;
+    width: 25%;
+    background-color: aqua;
+    border-radius: 10%;
+}
+
+.bottom {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.orange {
+    height: 80%;
+    width: 42%;
+    background-color: orange;
+}
+
+.elephant {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.message {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    height: 70%;
+    width: 20%;
+}
+
+.footer {
+    height: 5%;
+    background-color: rebeccapurple;
+}
