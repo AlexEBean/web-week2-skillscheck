@@ -135,7 +135,7 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, use .map to create a new array that doubles each number. Call the new array 'doubled'.
 
 // Code Here
-const doubled = myNumbers.map(e => e *= 2)
+const doubled = myNumbers.map(e => e * 2)
 
 //////////////////PROBLEM 15////////////////////
 
@@ -165,7 +165,7 @@ myNumbers.forEach((e, i, a) => myNumbersIndex.push(i))
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
-const forTheLoveOfGeorge = notGeorge.map(e => e = "George")
+const forTheLoveOfGeorge = notGeorge.map(e => "George")
 
 //////////////////PROBLEM 19////////////////////
 
